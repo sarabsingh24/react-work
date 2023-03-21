@@ -1,0 +1,17 @@
+body {
+  background-color: var(--clr-grey-5);
+}
+.name {
+  color: var(--clr-grey-9);
+}
+
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 16px;
+  color: var(--clr-grey-5);
+  cursor: pointer;
+}

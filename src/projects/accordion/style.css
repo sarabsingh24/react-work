@@ -1,0 +1,39 @@
+.red{
+    color:red;
+}
+.blue{
+    color:blue
+}
+.accordian {
+      margin: 24px auto;
+      padding: 16px;
+    max-width: 480px;
+
+}
+
+.text-container{
+    
+  border: 2px solid var(--clr-grey-special);
+    margin-bottom: 1rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    position: relative;
+    background: var(--white1);
+    text-align: left;
+    cursor: pointer;
+    font-size: 1.2rem;
+   
+}
+.two-column{
+    display:grid;
+    grid-template-columns: 1fr 40px;
+    justify-content: center;
+    align-items: center;
+   padding: 1rem 0 1rem 16px;
+}
+
+.tag-info{
+    padding: 0 16px 1rem;
+    color: var(--clr-grey-4);
+    font-size:.9rem
+}

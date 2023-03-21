@@ -1,0 +1,44 @@
+
+.nav-bar-container{
+    box-shadow: var(--light-shadow);
+    display:flex;
+}
+
+
+
+.nav-bar-container .links ul , .nav-bar-container  .social ul{
+display:flex;
+
+
+}
+
+.nav-bar-container .links ul li{
+width:84px
+}
+
+.burgor-menu{
+    display:none
+}
+
+@media screen and (max-width:600px){
+
+    .nav-bar-container .logo-place{
+border:1px solid red;
+display:grid;
+grid-template-columns: 50% 50%;
+}
+
+.nav-bar-container{
+    display:inherit;
+}
+.nav-bar-container .links ul {
+display:inherit
+}
+
+.nav-bar-container .social ul li{
+display:none;
+}
+.burgor-menu{
+    display:block
+}
+}

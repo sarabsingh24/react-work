@@ -1,0 +1,58 @@
+.grocery-box {
+     background: #ffffff;
+    margin: 0 auto;
+    width: 412px;
+    box-shadow: 0px 2px 8px #e1e1e1;
+    border-radius: 4px;
+    padding: 8px;
+}
+.input-box {
+  padding: 6px;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+  min-width: 280px;
+}
+
+.submit-btn {
+  max-width: 80px;
+}
+
+.list-items {
+  padding: 8px;
+}
+
+.list-items header {
+  flex: 1;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #e1e1e1;
+  padding: 0 8px;
+}
+
+.success{
+  background: #bfffc6;
+  color:green;
+    text-align: center;
+}
+
+.danger{
+  background: #ffbfd3;
+  color:red;
+  text-align: center;
+}
+
+.clear-all{
+  font-size: small;
+  text-align: center;
+  color:red;
+  cursor: pointer;
+}
+
+.alert-height{
+  height:42px;
+}

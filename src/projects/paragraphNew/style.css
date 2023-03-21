@@ -1,0 +1,32 @@
+.form-container{
+    margin:18px;
+    font-family: var(--ff-primary);
+}
+.tex{
+    color:var( --clr-grey-5)!important;
+    text-align: justify;
+    margin: 0 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px dotted #e1e1e1;
+}
+
+.para-text{
+    display:flex;
+    margin:18px;
+    padding-bottom: 18px;
+}
+
+.input-field{
+    max-width: 48px;
+    padding:4px;
+    margin:6px
+}
+
+.form-btn{
+        padding: 6px 12px;
+    background-color: var(--blue3);
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}

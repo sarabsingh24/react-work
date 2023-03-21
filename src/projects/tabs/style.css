@@ -1,0 +1,18 @@
+body{
+    /* background-color:hsl(210, 22%, 49%); */
+}
+.content-bg{
+        background: #f3f3f3;
+}
+
+.heading-color{
+    color:hsl(209, 61%, 16%);
+    text-align:center;
+}
+.div-position{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 600px;
+}

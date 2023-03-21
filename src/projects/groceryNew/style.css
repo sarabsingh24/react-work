@@ -1,0 +1,89 @@
+.food-item-list-container {
+  max-width: 400px;
+  box-shadow: var(--light-shadow);
+  margin: 20px auto;
+  padding: 16px;
+}
+
+.alert-height{
+    height:24px;
+    margin-bottom: 12px;
+}
+
+.food-item-highlight {
+  display: block;
+
+  padding: 4px;
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+
+.success {
+  color: green;
+  border: 1px solid var(--green3);
+}
+
+.error {
+  color: red;
+  border: 1px solid var(--red5);
+}
+.food-item-list-row {
+  display: grid;
+  grid-template-columns: 1fr 40px 40px;
+  align-items: center;
+  font-family: var(--ff-secondary);
+  font-size: 0.9rem;
+  text-align: left;
+  margin-top: 10px;
+  padding: 6px;
+  border-bottom: 1px dotted #e1e1e1;
+}
+
+.food-item-list-row:hover {
+  background-color: var(--clr-grey-10);
+}
+
+.food-item-btn-type {
+  cursor: pointer;
+}
+
+.edit {
+  color: var(--green1);
+}
+
+.delete {
+  color: var(--red2);
+}
+
+.food-item-input-field {
+  padding: 6px;
+  margin: 4px;
+  width: 240px;
+  border: 2px solid var(--blue3);
+  border-radius: 4px;
+  background-color: var(--clr-grey-10);
+}
+
+.food-item-btn {
+  padding: 8px;
+  border: 2px solid var(--white1);
+  background-color: var(--blue3);
+  border-radius: 6px;
+  color: var(--white2);
+  box-shadow: var(--light-shadow);
+  cursor: pointer;
+}
+
+.food-item-btn:hover {
+  background-color: var(--green1);
+}
+
+.clear-item {
+  color: var(--red2);
+  font-size: 0.8rem;
+  border: none;
+  margin-top: 16px;
+  padding: 6px;
+  border-radius: 4px;
+  cursor:pointer
+}
