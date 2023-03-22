@@ -135,8 +135,8 @@ import Calculator from './projects/calculator/Calculator'
 function Main() {
   return (
     <div className="App">
-      <Pagination />
-      {/* <Calculator /> */}
+      <Pagination />   
+      {/* <Calculator /> sss*/}
     </div>
   );
 }
