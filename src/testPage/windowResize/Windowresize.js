@@ -9,7 +9,7 @@ export default function Windowresize() {
 
   React.useEffect(() => {
     window.addEventListener("resize", windowSize);
-    console.log("sarab");
+   
     return () => {
       window.removeEventListener("resize", windowSize);
     };

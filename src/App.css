@@ -1,0 +1,17 @@
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 160px);
+  gap: 10px;
+  margin: 16px;
+  
+}
+
+.item-sty {
+  padding: 16px;
+  font-size: 12px;
+  background: var(--clr-grey-10);
+  box-shadow: var(--light-shadow);
+  border-radius: var(--radius);
+  color:var(--dark1);
+  text-align: center;
+}
